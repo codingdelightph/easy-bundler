@@ -1,0 +1,25 @@
+{
+  "bundlerProApp": {
+    "itemMaster": {
+      "home": {
+        "title": "Item Masters",
+        "createLabel": "Crear nuevo Item Master",
+        "createOrEditLabel": "Crear o editar Item Master",
+        "search": "Buscar Item Master",
+        "notFound": "Ningún Item Masters encontrado"
+      },
+      "created": "Un nuevo Item Master ha sido creado con el identificador {{ param }}",
+      "updated": "Un Item Master ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Item Master ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Item Master {{ id }}?"
+      },
+      "detail": {
+        "title": "Item Master"
+      },
+      "code": "Code",
+      "description": "Description",
+      "user": "User"
+    }
+  }
+}

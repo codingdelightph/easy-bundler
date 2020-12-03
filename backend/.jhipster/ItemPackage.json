@@ -1,0 +1,46 @@
+{
+  "name": "ItemPackage",
+  "fields": [
+    {
+      "fieldName": "packageID",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "20"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "140"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "itemPackageDetails",
+      "otherEntityRelationshipName": "pkg",
+      "relationshipName": "pkgDet"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "pkgImages",
+      "otherEntityRelationshipName": "pkg",
+      "relationshipName": "pkgImg"
+    }
+  ],
+  "changelogDate": "20201114074814",
+  "entityTableName": "item_package",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["bundlerPro"]
+}

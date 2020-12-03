@@ -1,0 +1,35 @@
+{
+  "name": "PkgImages",
+  "fields": [
+    {
+      "fieldName": "packageID",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "imageUrl",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "500"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "itemPackage",
+      "otherEntityRelationshipName": "pkgImg",
+      "relationshipName": "pkg",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201114075014",
+  "entityTableName": "pkg_images",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["bundlerPro"]
+}

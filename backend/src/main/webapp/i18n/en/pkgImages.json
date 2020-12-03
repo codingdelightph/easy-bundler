@@ -1,0 +1,25 @@
+{
+  "bundlerProApp": {
+    "pkgImages": {
+      "home": {
+        "title": "Pkg Images",
+        "createLabel": "Create a new Pkg Images",
+        "createOrEditLabel": "Create or edit a Pkg Images",
+        "search": "Search for Pkg Images",
+        "notFound": "No Pkg Images found"
+      },
+      "created": "A new Pkg Images is created with identifier {{ param }}",
+      "updated": "A Pkg Images is updated with identifier {{ param }}",
+      "deleted": "A Pkg Images is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Pkg Images {{ id }}?"
+      },
+      "detail": {
+        "title": "Pkg Images"
+      },
+      "packageID": "Package ID",
+      "imageUrl": "Image Url",
+      "pkg": "Pkg"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+
+/*
+ * This is the application and entity model for the 21-Points (https://github.com/mraible/21-points) application from Matt Raible 
+ */
+
+application {
+  config {
+    applicationType monolith,
+    baseName bundlerPro
+    packageName com.mogen.bundle,
+    authenticationType oauth2,
+    prodDatabaseType postgresql,
+    buildTool gradle,
+    searchEngine elasticsearch,
+    testFrameworks [protractor],
+    clientFramework react,
+    useSass true,
+    enableTranslation true,
+    nativeLanguage en,
+    languages [en, es]
+  }
+  entities ItemMaster, ItemPackage, ItemPackageDetails, PkgImages, UserProduct  
+}
+
+// JDL definition for application 'TwentyOnePoints' generated with command 'jhipster export-jdl'
+
+entity ItemMaster {
+  code String maxlength(20)
+  description String maxlength(140)
+}
+entity ItemPackage {
+  packageID Integer
+  code String maxlength(20)
+  description String maxlength(140)
+}
+entity ItemPackageDetails {
+  packageID Integer
+  rowID Integer
+  code String maxlength(20)
+  description String maxlength(140)
+}
+entity PkgImages {
+  packageID Integer
+  imageUrl String maxlength(500)
+}
+entity UserProduct {
+  packageID Integer
+  imageUrl String maxlength(500)
+}
+
+relationship ManyToOne {
+  ItemMaster{user(login)} to User  
+  UserProduct{user(login)} to User  
+}
+relationship OneToMany {
+  ItemPackage{pkgDet} to ItemPackageDetails{pkg},
+  ItemPackage{pkgImg} to PkgImages{pkg}
+}

@@ -1,0 +1,27 @@
+{
+  "bundlerProApp": {
+    "itemPackageDetails": {
+      "home": {
+        "title": "Item Package Details",
+        "createLabel": "Crear nuevo Item Package Details",
+        "createOrEditLabel": "Crear o editar Item Package Details",
+        "search": "Buscar Item Package Details",
+        "notFound": "Ningún Item Package Details encontrado"
+      },
+      "created": "Un nuevo Item Package Details ha sido creado con el identificador {{ param }}",
+      "updated": "Un Item Package Details ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Item Package Details ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Item Package Details {{ id }}?"
+      },
+      "detail": {
+        "title": "Item Package Details"
+      },
+      "packageID": "Package ID",
+      "rowID": "Row ID",
+      "code": "Code",
+      "description": "Description",
+      "pkg": "Pkg"
+    }
+  }
+}
