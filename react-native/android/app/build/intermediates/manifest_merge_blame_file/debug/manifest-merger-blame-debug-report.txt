@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bundlerpro"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ae3dc7a416a382f883ade4ee16bb82d1/flipper-0.54.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ae3dc7a416a382f883ade4ee16bb82d1/flipper-0.54.0/AndroidManifest.xml:16:22-73
+16
+17    <application
+17-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:8:5-27:19
+18        android:name="com.bundlerpro.MainApplication"
+18-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:9:7-38
+19        android:allowBackup="false"
+19-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:13:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/edb3e227103316871c25f962da3e32ee/core-1.3.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:11:7-41
+23        android:label="@string/app_name"
+23-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:10:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:12:7-52
+25        android:theme="@style/AppTheme"
+25-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:14:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:7:18-53
+27        <activity
+27-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:15:7-25:18
+28            android:name="com.bundlerpro.MainActivity"
+28-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:16:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+29-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:18:9-86
+30            android:label="@string/app_name"
+30-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:17:9-41
+31            android:launchMode="singleTask"
+31-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:19:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:20:9-51
+33            <intent-filter>
+33-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:21:9-24:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:22:13-65
+34-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:22:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:23:13-73
+36-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:23:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:26:7-84
+40            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+40-->/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:26:17-81
+41            android:exported="false" />
+41-->[:react-native-navigation] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative63Debug/AndroidManifest.xml:14:13-37
+42
+43        <provider
+43-->[:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+44            android:name="com.imagepicker.FileProvider"
+44-->[:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+45            android:authorities="com.bundlerpro.provider"
+45-->[:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+46            android:exported="false"
+46-->[:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+47            android:grantUriPermissions="true" >
+47-->[:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+48            <meta-data
+48-->[:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->[:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+50                android:resource="@xml/provider_paths" />
+50-->[:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+51        </provider>
+52
+53        <activity
+53-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:27:9-31:75
+54            android:name="net.openid.appauth.AuthorizationManagementActivity"
+54-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:28:13-78
+55            android:exported="false"
+55-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:29:13-37
+56            android:launchMode="singleTask"
+56-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:30:13-44
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+57-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:31:13-72
+58        <activity
+58-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:32:9-43:20
+59            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+59-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:33:13-74
+60            android:exported="true" >
+60-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:34:13-36
+61            <intent-filter>
+61-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:35:13-42:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:36:17-69
+62-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:36:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:38:17-76
+64-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:38:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:39:17-78
+65-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:39:27-75
+66
+67                <data android:scheme="bundlerpro" />
+67-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:41:17-67
+67-->[net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:41:23-64
+68            </intent-filter>
+69        </activity>
+70    </application>
+71
+72</manifest>

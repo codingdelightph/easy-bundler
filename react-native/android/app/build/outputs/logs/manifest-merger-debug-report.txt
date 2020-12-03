@@ -1,0 +1,411 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:1:1-29:12
+MERGED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:1:1-29:12
+MERGED from [com.facebook.flipper:flipper:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ae3dc7a416a382f883ade4ee16bb82d1/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45dc23fb89bede30ecd0615c8467a5b2/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/785ab0315a7bcd5e632267ec3fe2ee98/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [androidx.multidex:multidex:2.0.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/4477e11d53bb408884ede2d2bef4ec97/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-community_async-storage] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_cookies] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/@react-native-community/cookies/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-navigation] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative63Debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:react-native-vector-icons] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-app-auth] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-app-auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.63.3] /home/dennis/.gradle/caches/transforms-2/files-2.1/d00e30b6a0d4be8df0897806f6103904/jetified-react-native-0.63.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.wix-playground:reflow-animator:1.0.6] /home/dennis/.gradle/caches/transforms-2/files-2.1/d786dbd89cf9a0af3a1b7745537c503f/reflow-animator-1.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/07f12c5d0bf69a257f51ce6eb85938a0/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fd2cd427c1b18958832af63f586dd268/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/406a266fca2a82a69fbb6eed4ecb6a00/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] /home/dennis/.gradle/caches/transforms-2/files-2.1/f7ecde51c0579fe1cce025223280cfda/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/2873f487d7aea1529ae311552645c800/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/50474f165a3c1fc762d3a0ee53fa6b24/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/c1a931459523b8226a6221475e81934e/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/50831e83d28d3c46eb065a5e298f5474/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/aaaefbac76626fc10c18fc5a688fa944/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ee5f046fac9b2904780b4da98ad64929/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/1bd0e4784861305bcb4ba8ed81fcd067/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fbd6c84a4ecec4b5d58d9f56a12d069c/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fd9a34ff6728fbf39abda4646a969eeb/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/55fffe2e007484dc6cf7cbcf0fe74af8/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/85bda35f972f7ec4d2bd7c5fd01b28cd/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fe4528601399c2d39715ee65c7fddacd/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/e8a3b31cd476ef3739df30d31a8958c6/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a4012030924a7f5f437c25310d78a448/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/15c223e32f59510e7c28c0c506161221/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.wix-playground:ahbottomnavigation:3.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/3b4d085db764b422b38064e6b4d021f5/ahbottomnavigation-3.2.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.2.0-alpha03] /home/dennis/.gradle/caches/transforms-2/files-2.1/4bad5320887447a385c35da400a0be28/material-1.2.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f6ed8a61e0684717a1204e72bc46125d/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:15:1-46:12
+MERGED from [androidx.browser:browser:1.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/97b26070cc46d39d3809751cbf542442/browser-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/42fdf14f0e57a626a1d9d0afb9aea2b9/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/be8a6cad49a89d129e783d7cf953293f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8a33da9e024d71439a75f238286d7d45/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/205fcbec6326d6e5910d207d50fcee6b/core-ktx-1.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/5d4c698c7a5abb42f027a48b83d2f46a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/1fe4e6bdc5428dc4955d05a855b301c5/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fa99749678bae065236b2fa17f702ecd/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/1d87ce5cd705bd064c351870b5658975/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e08f719d0bc46fedeaa4a182dfb0991/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/c3527e170420cd85c75d74e0a4ccd094/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd9864047d1631a04f24382fea0fdb58/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f909b1e5daa4f1e5a9c13bd71e7c6088/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/172546fe16a2f52c35bcb16d678f014b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/4b10c87f89399c225a317a93bc7eff8d/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/02bf73b3d92ef5e02f4006d30968bbe9/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/c5265e3c9fb14e096981bd264caf93b5/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ef3024f71588dd3391dcff0fa3d468d0/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0f694c8c8b48b859395b716fca0fb8c4/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/2d649cd488366af9504befe98c387a2d/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/03971fead7e67722fba175a430a033e2/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/edb3e227103316871c25f962da3e32ee/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a3b5e3986570fbf6ed4d2157a5ad0978/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/60c4e91d32949b667b6153dba4e7d78c/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/32a691e29587aec155079d791d428ddd/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cdd6a54fb6e2deb83500f8c71a495c91/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/718b97372d6e6eb041542982f78c2964/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/156168ec256508af4d2d35b9d77b2b74/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a8e27e445679cbb674e417586d86e6fc/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/4c007ed84b6b8512ce6a09f8b5fc0112/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8dc863e594470f76e4430a02650c7f9f/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0710a7c777e17e9da1110a3b127ff8e8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8cf3e3906669a5301d61fc7a44f14efe/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.clans:fab:1.6.4] /home/dennis/.gradle/caches/transforms-2/files-2.1/f81fbcd7a6e760f2cc34f2ac9f34ef2d/fab-1.6.4/AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/d921c60a0098ef4312e69c0f2c97e1e0/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a1e486b205794752eefab4d8082d1f76/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/88e7a3f0a707191d9c4bf4cf0aa37c12/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:2:3-27
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:2:3-27
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:1:1-29:12
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:1:1-29:12
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ae3dc7a416a382f883ade4ee16bb82d1/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ae3dc7a416a382f883ade4ee16bb82d1/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:24:5-67
+MERGED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:6:22-78
+application
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:8:5-27:19
+MERGED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:8:5-27:19
+MERGED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:8:5-27:19
+MERGED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-navigation] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative63Debug/AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-navigation] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative63Debug/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.react:react-native:0.63.3] /home/dennis/.gradle/caches/transforms-2/files-2.1/d00e30b6a0d4be8df0897806f6103904/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.3] /home/dennis/.gradle/caches/transforms-2/files-2.1/d00e30b6a0d4be8df0897806f6103904/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/15c223e32f59510e7c28c0c506161221/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/15c223e32f59510e7c28c0c506161221/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.wix-playground:ahbottomnavigation:3.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/3b4d085db764b422b38064e6b4d021f5/ahbottomnavigation-3.2.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.wix-playground:ahbottomnavigation:3.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/3b4d085db764b422b38064e6b4d021f5/ahbottomnavigation-3.2.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha03] /home/dennis/.gradle/caches/transforms-2/files-2.1/4bad5320887447a385c35da400a0be28/material-1.2.0-alpha03/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha03] /home/dennis/.gradle/caches/transforms-2/files-2.1/4bad5320887447a385c35da400a0be28/material-1.2.0-alpha03/AndroidManifest.xml:22:5-20
+MERGED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:26:5-44:19
+MERGED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:26:5-44:19
+MERGED from [androidx.core:core:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/edb3e227103316871c25f962da3e32ee/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/edb3e227103316871c25f962da3e32ee/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/60c4e91d32949b667b6153dba4e7d78c/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/60c4e91d32949b667b6153dba4e7d78c/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.clans:fab:1.6.4] /home/dennis/.gradle/caches/transforms-2/files-2.1/f81fbcd7a6e760f2cc34f2ac9f34ef2d/fab-1.6.4/AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] /home/dennis/.gradle/caches/transforms-2/files-2.1/f81fbcd7a6e760f2cc34f2ac9f34ef2d/fab-1.6.4/AndroidManifest.xml:12:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/edb3e227103316871c25f962da3e32ee/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:10:7-39
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:10:7-39
+	tools:ignore
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:12:7-52
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:12:7-52
+	tools:targetApi
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:11:7-41
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:11:7-41
+	android:allowBackup
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:13:7-34
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:13:7-34
+	android:theme
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:14:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:9:7-38
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:9:7-38
+activity#com.bundlerpro.MainActivity
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:15:7-25:18
+	android:label
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:17:9-41
+	android:launchMode
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:19:9-40
+	android:windowSoftInputMode
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:20:9-51
+	android:configChanges
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:18:9-86
+	android:name
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:21:9-24:25
+action#android.intent.action.MAIN
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:22:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:23:13-73
+	android:name
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:23:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:26:7-84
+MERGED from [:react-native-navigation] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative63Debug/AndroidManifest.xml:12:9-14:40
+MERGED from [:react-native-navigation] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative63Debug/AndroidManifest.xml:12:9-14:40
+	android:exported
+		ADDED from [:react-native-navigation] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative63Debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml:26:17-81
+uses-sdk
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ae3dc7a416a382f883ade4ee16bb82d1/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ae3dc7a416a382f883ade4ee16bb82d1/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45dc23fb89bede30ecd0615c8467a5b2/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45dc23fb89bede30ecd0615c8467a5b2/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/785ab0315a7bcd5e632267ec3fe2ee98/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/785ab0315a7bcd5e632267ec3fe2ee98/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [androidx.multidex:multidex:2.0.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/4477e11d53bb408884ede2d2bef4ec97/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/4477e11d53bb408884ede2d2bef4ec97/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [:react-native-community_async-storage] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_cookies] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/@react-native-community/cookies/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_cookies] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/@react-native-community/cookies/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-navigation] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative63Debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative63Debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-app-auth] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-app-auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-app-auth] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-app-auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /home/dennis/.gradle/caches/transforms-2/files-2.1/d00e30b6a0d4be8df0897806f6103904/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /home/dennis/.gradle/caches/transforms-2/files-2.1/d00e30b6a0d4be8df0897806f6103904/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wix-playground:reflow-animator:1.0.6] /home/dennis/.gradle/caches/transforms-2/files-2.1/d786dbd89cf9a0af3a1b7745537c503f/reflow-animator-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wix-playground:reflow-animator:1.0.6] /home/dennis/.gradle/caches/transforms-2/files-2.1/d786dbd89cf9a0af3a1b7745537c503f/reflow-animator-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/07f12c5d0bf69a257f51ce6eb85938a0/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/07f12c5d0bf69a257f51ce6eb85938a0/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fd2cd427c1b18958832af63f586dd268/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fd2cd427c1b18958832af63f586dd268/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/406a266fca2a82a69fbb6eed4ecb6a00/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/406a266fca2a82a69fbb6eed4ecb6a00/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /home/dennis/.gradle/caches/transforms-2/files-2.1/f7ecde51c0579fe1cce025223280cfda/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/dennis/.gradle/caches/transforms-2/files-2.1/f7ecde51c0579fe1cce025223280cfda/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/2873f487d7aea1529ae311552645c800/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/2873f487d7aea1529ae311552645c800/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/50474f165a3c1fc762d3a0ee53fa6b24/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/50474f165a3c1fc762d3a0ee53fa6b24/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/c1a931459523b8226a6221475e81934e/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/c1a931459523b8226a6221475e81934e/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/50831e83d28d3c46eb065a5e298f5474/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/50831e83d28d3c46eb065a5e298f5474/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/aaaefbac76626fc10c18fc5a688fa944/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/aaaefbac76626fc10c18fc5a688fa944/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ee5f046fac9b2904780b4da98ad64929/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ee5f046fac9b2904780b4da98ad64929/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/1bd0e4784861305bcb4ba8ed81fcd067/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/1bd0e4784861305bcb4ba8ed81fcd067/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fbd6c84a4ecec4b5d58d9f56a12d069c/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fbd6c84a4ecec4b5d58d9f56a12d069c/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fd9a34ff6728fbf39abda4646a969eeb/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fd9a34ff6728fbf39abda4646a969eeb/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/55fffe2e007484dc6cf7cbcf0fe74af8/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/55fffe2e007484dc6cf7cbcf0fe74af8/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/85bda35f972f7ec4d2bd7c5fd01b28cd/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/85bda35f972f7ec4d2bd7c5fd01b28cd/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fe4528601399c2d39715ee65c7fddacd/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fe4528601399c2d39715ee65c7fddacd/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/e8a3b31cd476ef3739df30d31a8958c6/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/e8a3b31cd476ef3739df30d31a8958c6/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a4012030924a7f5f437c25310d78a448/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a4012030924a7f5f437c25310d78a448/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/15c223e32f59510e7c28c0c506161221/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/15c223e32f59510e7c28c0c506161221/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wix-playground:ahbottomnavigation:3.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/3b4d085db764b422b38064e6b4d021f5/ahbottomnavigation-3.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wix-playground:ahbottomnavigation:3.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/3b4d085db764b422b38064e6b4d021f5/ahbottomnavigation-3.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.2.0-alpha03] /home/dennis/.gradle/caches/transforms-2/files-2.1/4bad5320887447a385c35da400a0be28/material-1.2.0-alpha03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha03] /home/dennis/.gradle/caches/transforms-2/files-2.1/4bad5320887447a385c35da400a0be28/material-1.2.0-alpha03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f6ed8a61e0684717a1204e72bc46125d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f6ed8a61e0684717a1204e72bc46125d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/97b26070cc46d39d3809751cbf542442/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/97b26070cc46d39d3809751cbf542442/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/42fdf14f0e57a626a1d9d0afb9aea2b9/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/42fdf14f0e57a626a1d9d0afb9aea2b9/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/be8a6cad49a89d129e783d7cf953293f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/be8a6cad49a89d129e783d7cf953293f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8a33da9e024d71439a75f238286d7d45/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8a33da9e024d71439a75f238286d7d45/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/205fcbec6326d6e5910d207d50fcee6b/core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/205fcbec6326d6e5910d207d50fcee6b/core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/5d4c698c7a5abb42f027a48b83d2f46a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/5d4c698c7a5abb42f027a48b83d2f46a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/1fe4e6bdc5428dc4955d05a855b301c5/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/1fe4e6bdc5428dc4955d05a855b301c5/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fa99749678bae065236b2fa17f702ecd/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fa99749678bae065236b2fa17f702ecd/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/1d87ce5cd705bd064c351870b5658975/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/1d87ce5cd705bd064c351870b5658975/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e08f719d0bc46fedeaa4a182dfb0991/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e08f719d0bc46fedeaa4a182dfb0991/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/c3527e170420cd85c75d74e0a4ccd094/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/c3527e170420cd85c75d74e0a4ccd094/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd9864047d1631a04f24382fea0fdb58/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd9864047d1631a04f24382fea0fdb58/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f909b1e5daa4f1e5a9c13bd71e7c6088/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f909b1e5daa4f1e5a9c13bd71e7c6088/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/172546fe16a2f52c35bcb16d678f014b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/172546fe16a2f52c35bcb16d678f014b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/4b10c87f89399c225a317a93bc7eff8d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/4b10c87f89399c225a317a93bc7eff8d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/02bf73b3d92ef5e02f4006d30968bbe9/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/02bf73b3d92ef5e02f4006d30968bbe9/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/c5265e3c9fb14e096981bd264caf93b5/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/c5265e3c9fb14e096981bd264caf93b5/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ef3024f71588dd3391dcff0fa3d468d0/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ef3024f71588dd3391dcff0fa3d468d0/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0f694c8c8b48b859395b716fca0fb8c4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0f694c8c8b48b859395b716fca0fb8c4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/2d649cd488366af9504befe98c387a2d/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/2d649cd488366af9504befe98c387a2d/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/03971fead7e67722fba175a430a033e2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/03971fead7e67722fba175a430a033e2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/edb3e227103316871c25f962da3e32ee/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/edb3e227103316871c25f962da3e32ee/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a3b5e3986570fbf6ed4d2157a5ad0978/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a3b5e3986570fbf6ed4d2157a5ad0978/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/60c4e91d32949b667b6153dba4e7d78c/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/60c4e91d32949b667b6153dba4e7d78c/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/32a691e29587aec155079d791d428ddd/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/32a691e29587aec155079d791d428ddd/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cdd6a54fb6e2deb83500f8c71a495c91/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cdd6a54fb6e2deb83500f8c71a495c91/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/718b97372d6e6eb041542982f78c2964/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/718b97372d6e6eb041542982f78c2964/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/156168ec256508af4d2d35b9d77b2b74/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/156168ec256508af4d2d35b9d77b2b74/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a8e27e445679cbb674e417586d86e6fc/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a8e27e445679cbb674e417586d86e6fc/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/4c007ed84b6b8512ce6a09f8b5fc0112/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/4c007ed84b6b8512ce6a09f8b5fc0112/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8dc863e594470f76e4430a02650c7f9f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8dc863e594470f76e4430a02650c7f9f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0710a7c777e17e9da1110a3b127ff8e8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0710a7c777e17e9da1110a3b127ff8e8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8cf3e3906669a5301d61fc7a44f14efe/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8cf3e3906669a5301d61fc7a44f14efe/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.clans:fab:1.6.4] /home/dennis/.gradle/caches/transforms-2/files-2.1/f81fbcd7a6e760f2cc34f2ac9f34ef2d/fab-1.6.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] /home/dennis/.gradle/caches/transforms-2/files-2.1/f81fbcd7a6e760f2cc34f2ac9f34ef2d/fab-1.6.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/d921c60a0098ef4312e69c0f2c97e1e0/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/d921c60a0098ef4312e69c0f2c97e1e0/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a1e486b205794752eefab4d8082d1f76/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/a1e486b205794752eefab4d8082d1f76/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/88e7a3f0a707191d9c4bf4cf0aa37c12/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/88e7a3f0a707191d9c4bf4cf0aa37c12/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ae3dc7a416a382f883ade4ee16bb82d1/flipper-0.54.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.54.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ae3dc7a416a382f883ade4ee16bb82d1/flipper-0.54.0/AndroidManifest.xml:16:22-73
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+activity#net.openid.appauth.AuthorizationManagementActivity
+ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:27:9-31:75
+	android:launchMode
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:30:13-44
+	android:exported
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:31:13-72
+	android:name
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:28:13-78
+activity#net.openid.appauth.RedirectUriReceiverActivity
+ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:32:9-43:20
+	android:exported
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:33:13-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:${appAuthRedirectScheme}
+ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:35:13-42:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:bundlerpro
+ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:35:13-42:29
+action#android.intent.action.VIEW
+ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:39:27-75
+data
+ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:41:17-67
+	android:scheme
+		ADDED from [net.openid:appauth:0.7.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/599964322035e037d4383bf87298834a/jetified-appauth-0.7.1/AndroidManifest.xml:41:23-64
