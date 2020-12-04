@@ -13,10 +13,18 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
+
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -88,6 +96,30 @@ public class ItemPackageResource {
         return ResponseEntity.ok()
             .headers(HeaderUtil.createEntityUpdateAlert(applicationName, true, ENTITY_NAME, itemPackage.getId().toString()))
             .body(result);
+    }
+
+    @PutMapping("/item-packages-image")
+    public ResponseEntity<String> updateItemPackageImage(@RequestParam("fileKey") final String fileKey, @RequestParam("file") final MultipartFile file) throws URISyntaxException {
+        log.debug("REST request to update ItemPackage : {}", fileKey);
+        String status = "";
+        if (!file.isEmpty()) {
+            try {
+                String savedFileName = "images/product_" + fileKey;
+                final File fileServer = new File(savedFileName);
+                fileServer.createNewFile();
+                final byte[] bytes = file.getBytes();
+                final BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(fileServer));
+                stream.write(bytes);
+                stream.close();     
+                status = "File successfully uploaded";          
+            } catch (final Exception e) {
+                status = e.getMessage();
+            }
+        } else {
+            status = "You failed to upload because the file was empty.";
+        }
+        return ResponseEntity.ok()
+                        .body(status);   
     }
 
     /**

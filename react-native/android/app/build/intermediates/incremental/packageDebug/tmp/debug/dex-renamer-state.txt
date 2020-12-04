@@ -1,9 +1,9 @@
-#Tue Nov 17 23:15:06 PST 2020
-base.2=/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes3.dex
+#Thu Dec 03 19:45:31 PST 2020
+base.2=/home/dennis/training/JHipster/v4/easy-bundler/react-native/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes3.dex
 path.2=classes3.dex
-base.1=/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes2.dex
+base.1=/home/dennis/training/JHipster/v4/easy-bundler/react-native/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes2.dex
 path.1=classes2.dex
-base.0=/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+base.0=/home/dennis/training/JHipster/v4/easy-bundler/react-native/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

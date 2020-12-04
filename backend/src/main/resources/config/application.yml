@@ -123,6 +123,9 @@ spring:
           oidc:
             client-id: web_app
             client-secret: web_app
+  servlet:
+    multipart:
+      max-file-size: 10MB
 
 server:
   servlet:

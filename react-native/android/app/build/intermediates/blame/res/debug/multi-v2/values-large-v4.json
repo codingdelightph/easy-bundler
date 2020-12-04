@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dennis/training/JHipster/v3/bundler-app/stage2/bundlerPro/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/home/dennis/training/JHipster/v4/easy-bundler/react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "/home/dennis/.gradle/caches/transforms-2/files-2.1/4bad5320887447a385c35da400a0be28/material-1.2.0-alpha03/res/values-large-v4/values-large-v4.xml",
