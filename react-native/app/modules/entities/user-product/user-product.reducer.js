@@ -7,6 +7,7 @@ const { Types, Creators } = createActions({
   userProductRequest: ['userProductId'],
   userProductAllRequest: ['options'],
   userProductUpdateRequest: ['userProduct'],
+  userProductUpdateImageRequest: ['formData'],
   userProductSearchRequest: ['query'],
   userProductDeleteRequest: ['userProductId'],
 
@@ -64,6 +65,11 @@ export const allRequest = (state) =>
 
 // request to update from an api
 export const updateRequest = (state) =>
+  state.merge({
+    updating: true,
+  })
+
+export const updateImageRequest = (state) =>
   state.merge({
     updating: true,
   })
@@ -177,6 +183,7 @@ export const reducer = createReducer(INITIAL_STATE, {
   [Types.USER_PRODUCT_REQUEST]: request,
   [Types.USER_PRODUCT_ALL_REQUEST]: allRequest,
   [Types.USER_PRODUCT_UPDATE_REQUEST]: updateRequest,
+  [Types.USER_PRODUCT_UPDATE_IMAGE_REQUEST]: updateRequest,
   [Types.USER_PRODUCT_SEARCH_REQUEST]: searchRequest,
   [Types.USER_PRODUCT_DELETE_REQUEST]: deleteRequest,
 

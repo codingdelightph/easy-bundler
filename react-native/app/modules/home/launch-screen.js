@@ -54,7 +54,7 @@ export default class LaunchScreen extends React.Component {
     ImagePicker.launchImageLibrary(options, (response) => {
       if (response.uri) {
         this.setState({ photo: response });
-        console.log(this.state.photo);
+        //console.log(this.state.photo);
       }
     });
   };

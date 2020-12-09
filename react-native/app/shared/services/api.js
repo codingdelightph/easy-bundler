@@ -92,7 +92,9 @@ const create = (baseURL = AppConfig.apiUrl) => {
   const getUserProduct = (userProductId) => api.get('api/user-products/' + userProductId)
   const getUserProducts = (options) => api.get('api/user-products', options)
   const createUserProduct = (userProduct) => api.post('api/user-products', userProduct)
-  const updateUserProduct = (userProduct) => api.put('api/user-products', userProduct)
+  const updateUserProduct = (userProduct) => api.put('api/user-products', userProduct)  
+  //const updateUserProductImage = (userProduct, dataForm) => api.put('api/user-products-image', userProduct, dataForm,  {headers:{"Content-Type": "multipart/form-data"}})  
+  const updateUserProductImage = (formData) => api.put('api/user-products-image', formData)  
   const deleteUserProduct = (userProductId) => api.delete('api/user-products/' + userProductId)
   const searchUserProducts = (query) => api.get('api/_search/user-products', { query: query })
   // ignite-jhipster-api-method-needle
@@ -147,6 +149,7 @@ const create = (baseURL = AppConfig.apiUrl) => {
 
     createUserProduct,
     updateUserProduct,
+    updateUserProductImage,
     getUserProducts,
     getUserProduct,
     deleteUserProduct,

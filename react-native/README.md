@@ -98,3 +98,6 @@ export const createEntity: ICrudPutAction<IUserProduct> = entity => async dispat
    await store.dispatch(createEntity({ id: 1 })).then(() => expect(store.getActions()).toEqual(expectedActions));
     }
     backend/src/test/javascript/spec/app/entities/user-product/user-product-reducer.spec.ts
+
+
+/home/dennis/training/JHipster/v4/easy-bundler/react-native/app/modules/entities/user-product/user-product-entity-edit-screen.js

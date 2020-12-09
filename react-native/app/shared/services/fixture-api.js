@@ -124,6 +124,12 @@ export default {
       data: require('../../shared/fixtures/update-userproduct.json'),
     }
   },
+  updateUserProductImage: (userProductId, dataForm) => {
+    return {
+      ok: true,
+      data: require('../../shared/fixtures/update-userproduct-image.json'),
+    }
+  },
   getUserProducts: () => {
     return {
       ok: true,

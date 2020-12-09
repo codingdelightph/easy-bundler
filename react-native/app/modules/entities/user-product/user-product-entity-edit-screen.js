@@ -1,5 +1,5 @@
 import React from 'react'
-import { ActivityIndicator, Alert, Text, TouchableHighlight, View, Button  } from 'react-native'
+import { ActivityIndicator, Alert, Text, TouchableHighlight, View, Button, Platform  } from 'react-native'
 import { connect } from 'react-redux'
 import UserProductActions from './user-product.reducer'
 import UserActions from '../../../shared/reducers/user.reducer'
@@ -46,8 +46,9 @@ class UserProductEntityEditScreen extends React.Component {
       },
       userProduct: {},
       isNewEntity: true,
-      imageUrl: "",
+      photo: {},      
     }
+
     if (props.data && props.data.entityId) {
       this.state.isNewEntity = false
       this.props.getUserProduct(props.data.entityId)
@@ -58,12 +59,14 @@ class UserProductEntityEditScreen extends React.Component {
     this.formChange = this.formChange.bind(this)
   }
 
+
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.userProduct !== prevState.userProduct && !prevState.isNewEntity) {
       return { formValue: entityToFormValue(nextProps.userProduct), userProduct: nextProps.userProduct }
     }
     return null
   }
+
   componentDidUpdate(prevProps) {
     if (prevProps.updating && !this.props.updating) {
       if (this.props.error) {
@@ -98,13 +101,32 @@ class UserProductEntityEditScreen extends React.Component {
     const userProduct = this.form.getValue()
     if (userProduct) {
       // if validation fails, value will be null
-      console.log("submit form " + this.imageUrl)
-      this.props.updateUserProduct(formValueToEntity(this.state.imageUrl ,userProduct))
-    }
-  }
+      //this.props.updateUserProduct(formValueToEntity(this.state.imageUrl ,userProduct))
+      const imgPath = this.state.imageUrl;
+      const imgFileName = this.state.imageFileName
+      
+      const uploadData = new FormData();
+      photo = this.state.photo
+      uploadData.append('file', {
+        uri: photo.uri,
+        name: photo.fileName,
+        fileName: userProduct.packageID,
+        fileKey: userProduct.packageID,
+        type: 'img/jpg',
+        uri:
+          Platform.OS === 'android' ? photo.uri : photo.uri.replace('file://', ''),
+      });
+      uploadData.append('Content-Type', 'img/jpg');
+      console.log(" userProduct.packageID " + userProduct.packageID)
+      this.props.updateUserProductImage(uploadData);
+
+    } 
+ }
+
+ 
 
   formChange(newValue) {
-    console.log("Form value ");
+    //console.log("Form value ");
     this.setState({
       formValue: newValue,
     })
@@ -114,15 +136,52 @@ class UserProductEntityEditScreen extends React.Component {
     const options = {
       noData: true,
     };
+    /**
     ImagePicker.launchImageLibrary(options, (response) => {
       if (response.uri) {        
         //this.setState(this.imageUrl = response.uri)
-        this.setState({ imageUrl: response.uri })        
-        console.log("ppp " + this.state.imageUrl)      
+        //console.log(">>> Response:" + response)
+        console.log(">>> Response Data:" + response.data)
+        const source = { uri: 'data:image/jpeg;base64,' + response.data };
+        console.log(">>> Response:" + source)
+        this.setState({ imageUrl: response.uri,
+            imageFileName: response.fileName
+         })        
+        //console.log("ppp " + this.state.imageUrl)      
       }
-    });    
+    });
+    */
+    ImagePicker.showImagePicker({
+      title:'Select an awesome picture',
+      takePhotoButtonTitle:'Take a super pretty one !!',
+      chooseFromLibraryButtonTitle:'really? and oldie ?'
+    },response => {
+      if(response.didCancel){
+        console.log('user canceled')
+      } else if (response.error){
+        console.log(response.error)
+      } else {
+        //const source = { uri: 'data:image/jpeg;base64,' + response.data };
+        this.setState({ photo: response });
+        //console.log(source)
+  
+      }
+    })
+       
   };
 
+  buildFormData = async (imageUrl, productId) => {
+    // Check if any file is selected or not
+    let formData = new FormData();
+    formData.append('file', {
+      uri : imageUrl,
+      name : productId,
+      contentType : 'multipart/form-data',
+    });
+    console.log("buildFormData formData: " + formData.toString());
+    return formData;
+  };
+  
   render() {
     if (this.props.fetching) {
       return (
@@ -194,6 +253,7 @@ const mapDispatchToProps = (dispatch) => {
     getUserProduct: (id) => dispatch(UserProductActions.userProductRequest(id)),
     getAllUserProducts: (options) => dispatch(UserProductActions.userProductAllRequest(options)),
     updateUserProduct: (userProduct) => dispatch(UserProductActions.userProductUpdateRequest(userProduct)),
+    updateUserProductImage: (formData) => dispatch(UserProductActions.userProductUpdateImageRequest(formData)),
     reset: () => dispatch(UserProductActions.userProductReset()),
   }
 }

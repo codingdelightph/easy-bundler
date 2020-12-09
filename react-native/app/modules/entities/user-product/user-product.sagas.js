@@ -45,6 +45,38 @@ export function* updateUserProduct(api, action) {
   }
 }
 
+export function* updateUserProductImage(api, action) {
+  const { formData} = action
+  // make the call to the api  
+  //console.log("updateUserProductImage Saga 4 " + formData.toString())
+  console.log("updateUserProductImage Saga 4 " + formData)
+  const apiCall = call(api.updateUserProductImage, formData)
+  const response = yield call(callApi, apiCall)
+
+  // success?
+  if (response.ok) {
+    yield put(UserProductActions.userProductUpdateSuccess(response.data))
+  } else {
+    yield put(UserProductActions.userProductUpdateFailure(response.data))
+  }
+}
+
+/**
+export function* updateUserProductImage(api, action) {
+  const { userProduct } = action
+  // make the call to the api
+  const apiCall = call(api.updateUserProductImage, userProduct)
+  const response = yield call(callApi, apiCall)
+
+  // success?
+  if (response.ok) {
+    yield put(UserProductActions.userProductUpdateSuccess(response.data))
+  } else {
+    yield put(UserProductActions.userProductUpdateFailure(response.data))
+  }
+}
+ */
+
 export function* searchUserProducts(api, action) {
   const { query } = action
   // make the call to the api

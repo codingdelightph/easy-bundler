@@ -60,6 +60,7 @@ import {
   getUserProduct,
   getUserProducts,
   updateUserProduct,
+  updateUserProductImage,
   deleteUserProduct,
   searchUserProducts,
 } from '../../modules/entities/user-product/user-product.sagas'
@@ -113,6 +114,7 @@ export default function* root() {
     takeLatest(UserProductTypes.USER_PRODUCT_REQUEST, getUserProduct, api),
     takeLatest(UserProductTypes.USER_PRODUCT_ALL_REQUEST, getUserProducts, api),
     takeLatest(UserProductTypes.USER_PRODUCT_UPDATE_REQUEST, updateUserProduct, api),
+    takeLatest(UserProductTypes.USER_PRODUCT_UPDATE_IMAGE_REQUEST, updateUserProductImage, api),
     takeLatest(UserProductTypes.USER_PRODUCT_DELETE_REQUEST, deleteUserProduct, api),
     takeLatest(UserProductTypes.USER_PRODUCT_SEARCH_REQUEST, searchUserProducts, api),
     // ignite-jhipster-saga-redux-connect-needle

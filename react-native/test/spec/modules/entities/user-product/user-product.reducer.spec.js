@@ -19,6 +19,13 @@ test('attempt updating a userProduct', () => {
 
   expect(state.updating).toBe(true)
 })
+
+test('attempt updating a userProduct image', () => {
+  const state = reducer(INITIAL_STATE, Actions.userProductImageRequest({ id: 1 }))
+
+  expect(state.updating).toBe(true)
+})
+
 test('attempt searching a userProduct', () => {
   const state = reducer(INITIAL_STATE, Actions.userProductSearchRequest(1))
 

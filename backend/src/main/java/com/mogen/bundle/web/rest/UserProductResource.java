@@ -10,11 +10,18 @@ import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
+
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
@@ -89,6 +96,47 @@ public class UserProductResource {
             .headers(HeaderUtil.createEntityUpdateAlert(applicationName, true, ENTITY_NAME, userProduct.getId().toString()))
             .body(result);
     }
+
+    /**
+    @GetMapping("/user-products-image/{id}")
+    public ResponseEntity<UserProduct> getUserProductImage(@PathVariable Long id) {
+        log.debug(">>>> REST request to get getUserProductImage : {}", id);
+        Optional<UserProduct> userProduct = userProductRepository.findById(id);
+        return ResponseUtil.wrapOrNotFound(userProduct);
+    }
+    
+    @PutMapping("/user-products-image")
+    public ResponseEntity<String> updateUserProductImage(@RequestParam("fileKey") final String fileKey, @RequestParam("file") final MultipartFile file) throws URISyntaxException {
+    */
+    
+    @PutMapping(value = "/user-products-image",
+     consumes=MediaType.MULTIPART_FORM_DATA_VALUE)
+    public ResponseEntity<String> updateUserProductImage(@RequestPart("file") final MultipartFile file) throws URISyntaxException {    
+        //log.debug(">>> REST updateUserProductImage : {}", "TEST001");
+        log.debug(">>> REST updateUserProductImage FileName : {}", file.getOriginalFilename());
+        log.debug(">>> REST updateUserProductImage FileName : {}", file.getName());
+        String status = "";
+        if (!file.isEmpty()) {
+            try {
+                String savedFileName = "images/product_" + file.getOriginalFilename();
+                final File fileServer = new File(savedFileName);
+                fileServer.createNewFile();
+                final byte[] bytes = file.getBytes();
+                final BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(fileServer));
+                stream.write(bytes);
+                stream.close();     
+                status = "File successfully uploaded";          
+            } catch (final Exception e) {
+                status = e.getMessage();
+            }
+        } else {
+            status = "You failed to upload because the file was empty.";
+        }
+        log.debug("File successfully uploaded!!!");
+        return ResponseEntity.ok()
+                        .body(status); 
+    }
+    
 
     /**
      * {@code GET  /user-products} : get all the userProducts.

@@ -57,6 +57,15 @@ test('update success path', () => {
   expect(step(response)).toEqual(put(UserProductActions.userProductUpdateSuccess({ id: 1 })))
 })
 
+test('update image success path', () => {
+  const response = FixtureAPI.updateUserProductImage(userProductId, formData)
+  const step = stepper(updateUserProductImage(FixtureAPI, userProductId, formData))
+  // Step 1: Hit the api
+  step()
+  // Step 2: Successful return and data!
+  expect(step(response)).toEqual(put(UserProductActions.userProductUpdateSuccess({ id: 1 })))
+})
+
 test('update failure path', () => {
   const response = { ok: false }
   const step = stepper(updateUserProduct(FixtureAPI, { userProduct: { id: 1 } }))

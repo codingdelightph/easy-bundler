@@ -100,7 +100,7 @@ public class ItemPackageResource {
 
     @PutMapping("/item-packages-image")
     public ResponseEntity<String> updateItemPackageImage(@RequestParam("fileKey") final String fileKey, @RequestParam("file") final MultipartFile file) throws URISyntaxException {
-        log.debug("REST request to update ItemPackage : {}", fileKey);
+        log.debug(">>> REST updateItemPackageImage : {}", fileKey);
         String status = "";
         if (!file.isEmpty()) {
             try {
