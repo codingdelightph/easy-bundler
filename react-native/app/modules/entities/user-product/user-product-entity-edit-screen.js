@@ -107,19 +107,20 @@ class UserProductEntityEditScreen extends React.Component {
       
       const uploadData = new FormData();
       photo = this.state.photo
+      const imgKey = userProduct.packageID + "_" + photo.fileName
+      this.props.updateUserProduct(formValueToEntity(imgKey,userProduct))
       uploadData.append('file', {
         uri: photo.uri,
-        name: photo.fileName,
+        name: imgKey,
         fileName: userProduct.packageID,
         fileKey: userProduct.packageID,
-        type: 'img/jpg',
+        type: 'img/png',
         uri:
           Platform.OS === 'android' ? photo.uri : photo.uri.replace('file://', ''),
       });
-      uploadData.append('Content-Type', 'img/jpg');
-      console.log(" userProduct.packageID " + userProduct.packageID)
+      uploadData.append('Content-Type', 'img/png');
+      console.log(" userProduct.packageID " + imgKey)      
       this.props.updateUserProductImage(uploadData);
-
     } 
  }
 
@@ -223,12 +224,12 @@ const entityToFormValue = (value) => {
     userId: value.user && value.user.id ? value.user.id : null,
   }
 }
-const formValueToEntity = (newImageUrl, value) => {
-  console.log("formValueToEntity:" + newImageUrl)
+const formValueToEntity = (imgName, value) => {
+  console.log("formValueToEntity:" + imgName)  
   const entity = {
     id: value.id || null,
     packageID: value.packageID || null,
-    imageUrl: newImageUrl || null,
+    imageUrl: imgName || null,
   }
   console.log("formValueToEntity:" + entity.imageUrl)
   if (value.userId) {

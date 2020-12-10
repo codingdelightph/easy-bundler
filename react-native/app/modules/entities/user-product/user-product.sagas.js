@@ -48,8 +48,6 @@ export function* updateUserProduct(api, action) {
 export function* updateUserProductImage(api, action) {
   const { formData} = action
   // make the call to the api  
-  //console.log("updateUserProductImage Saga 4 " + formData.toString())
-  console.log("updateUserProductImage Saga 4 " + formData)
   const apiCall = call(api.updateUserProductImage, formData)
   const response = yield call(callApi, apiCall)
 

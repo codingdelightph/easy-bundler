@@ -10,6 +10,8 @@ import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.UrlResource;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,8 +24,12 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.http.HttpHeaders;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -42,6 +48,7 @@ public class UserProductResource {
     private final Logger log = LoggerFactory.getLogger(UserProductResource.class);
 
     private static final String ENTITY_NAME = "userProduct";
+    private static final String FILE_BASE = "images/product_"; 
 
     @Value("${jhipster.clientApp.name}")
     private String applicationName;
@@ -118,7 +125,7 @@ public class UserProductResource {
         String status = "";
         if (!file.isEmpty()) {
             try {
-                String savedFileName = "images/product_" + file.getOriginalFilename();
+                String savedFileName = FILE_BASE + file.getOriginalFilename();
                 final File fileServer = new File(savedFileName);
                 fileServer.createNewFile();
                 final byte[] bytes = file.getBytes();
@@ -137,6 +144,23 @@ public class UserProductResource {
                         .body(status); 
     }
     
+    @GetMapping("user-products-image-download/{id}")
+    public ResponseEntity<Resource> downloadUserProductImage(@PathVariable Long id)  throws URISyntaxException {    
+        Optional<UserProduct> userProduct = userProductRepository.findById(id);
+        log.debug("Retrieved userProduct: " + userProduct.toString());
+        String fileName = userProduct.get().getImageUrl();
+        Path path = Paths.get(FILE_BASE + fileName);
+        Resource resource = null;
+        try {
+            resource = new UrlResource(path.toUri());
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        return ResponseEntity.ok()
+                .contentType(MediaType.parseMediaType("img/jpg"))
+                .header("Content-Disposition", "attachment; filename=\"" + resource.getFilename() + "\"")
+                .body(resource);
+    }
 
     /**
      * {@code GET  /user-products} : get all the userProducts.
